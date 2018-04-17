@@ -3,15 +3,14 @@ A webpack loader that allows to use SVG files as Vue Components.
 
 ## Installation
 ```
-npm install --save-dev vue-template-compiler vue-svg-loader
-yarn add --dev vue-template-compiler vue-svg-loader
+npm i vue-svg2-loader -D
 ```
 
 ## Configuration
 ```js
 {
   test: /\.svg$/,
-  loader: 'vue-svg-loader', // `vue-svg` for webpack 1.x,
+  loader: 'vue-svg2-loader', // `vue-svg` for webpack 1.x,
   options: {
       classes: 'default-class-1 default-class-2'
   }
